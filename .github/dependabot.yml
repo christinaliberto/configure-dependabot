@@ -6,7 +6,7 @@ updates:
       interval: "daily"
       
   - package-ecosystem: "docker"
-    directory: "/"
+    directory: ".github/actions/local-action"
     schedule: 
       interval: "weekly"
     open-pull-requests-limit: 0
